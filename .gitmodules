@@ -1,0 +1,13 @@
+[submodule "tegra"]
+	path = nvidia/repos/tegra
+	url = git@github.com:OE4T/tegra-demo-distro.git
+	branch = master
+[submodule "nvidia/repos/meta-julia"]
+	path = nvidia/repos/meta-julia
+	url = git@github.com:NickMcSweeney/meta-julia.git
+[submodule "pine64/repos/meta-julia"]
+	path = pine64/repos/meta-julia
+	url = git@github.com:NickMcSweeney/meta-julia.git
+[submodule "raspberrypi/repos/meta-julia"]
+	path = raspberrypi/repos/meta-julia
+	url = git@github.com:NickMcSweeney/meta-julia.git
