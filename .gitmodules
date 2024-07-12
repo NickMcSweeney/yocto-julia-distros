@@ -11,3 +11,12 @@
 [submodule "raspberrypi/repos/meta-julia"]
 	path = raspberrypi/repos/meta-julia
 	url = git@github.com:NickMcSweeney/meta-julia.git
+[submodule "pine64/repos/meta-pine64"]
+	path = pine64/repos/meta-pine64
+	url = git@github.com:alistair23/meta-pine64.git
+[submodule "pine64/repos/poky"]
+	path = pine64/repos/poky
+	url = git://git.yoctoproject.org/poky
+[submodule "pine64/repos/meta-arm"]
+	path = pine64/repos/meta-arm
+	url = git://git.yoctoproject.org/meta-arm
