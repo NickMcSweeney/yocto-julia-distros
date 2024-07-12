@@ -1,13 +1,14 @@
 [submodule "tegra"]
 	path = nvidia/repos/tegra
 	url = git@github.com:OE4T/tegra-demo-distro.git
-	branch = master
+	branch = kirkstone
 [submodule "nvidia/repos/meta-julia"]
 	path = nvidia/repos/meta-julia
 	url = git@github.com:NickMcSweeney/meta-julia.git
 [submodule "pine64/repos/meta-julia"]
 	path = pine64/repos/meta-julia
 	url = git@github.com:NickMcSweeney/meta-julia.git
+	branch = julia-v10
 [submodule "raspberrypi/repos/meta-julia"]
 	path = raspberrypi/repos/meta-julia
 	url = git@github.com:NickMcSweeney/meta-julia.git
@@ -17,6 +18,8 @@
 [submodule "pine64/repos/poky"]
 	path = pine64/repos/poky
 	url = git://git.yoctoproject.org/poky
+	branch = kirkstone
 [submodule "pine64/repos/meta-arm"]
 	path = pine64/repos/meta-arm
 	url = git://git.yoctoproject.org/meta-arm
+	branch = kirkstone
